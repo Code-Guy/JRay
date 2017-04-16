@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="C++">
+      <UniqueIdentifier>{ea4e2c4a-cac7-471a-a0f0-c6dabf3bef5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\Nvidia">
+      <UniqueIdentifier>{586b5680-3141-4bf3-b585-25df3b5acef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\HDR">
+      <UniqueIdentifier>{e19d8c68-5eba-46f6-940c-508e0b6aac78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\Mine">
+      <UniqueIdentifier>{bc3a9a5b-4cd4-44bc-a74a-e4fdfb801861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cuda">
+      <UniqueIdentifier>{ba51076c-0533-4b03-a081-7f539a058858}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>C++\Mine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>C++\Mine</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneloader.cpp">
+      <Filter>C++\Mine</Filter>
+    </ClCompile>
+    <ClCompile Include="HDRloader.cpp">
+      <Filter>C++\HDR</Filter>
+    </ClCompile>
+    <ClCompile Include="BVH.cpp">
+      <Filter>C++\Nvidia</Filter>
+    </ClCompile>
+    <ClCompile Include="BVHNode.cpp">
+      <Filter>C++\Nvidia</Filter>
+    </ClCompile>
+    <ClCompile Include="CudaBVH.cpp">
+      <Filter>C++\Nvidia</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort.cpp">
+      <Filter>C++\Nvidia</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitBVHBuilder.cpp">
+      <Filter>C++\Nvidia</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>C++\Mine</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>C++\Mine</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneloader.h">
+      <Filter>C++\Mine</Filter>
+    </ClInclude>
+    <ClInclude Include="HDRloader.h">
+      <Filter>C++\HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>C++\Nvidia</Filter>
+    </ClInclude>
+    <ClInclude Include="BVH.h">
+      <Filter>C++\Nvidia</Filter>
+    </ClInclude>
+    <ClInclude Include="BVHNode.h">
+      <Filter>C++\Nvidia</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaBVH.h">
+      <Filter>C++\Nvidia</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaRenderKernel.h">
+      <Filter>C++\Nvidia</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_math.h">
+      <Filter>C++\Nvidia</Filter>
+    </ClInclude>
+    <ClInclude Include="linear_math.h">
+      <Filter>C++\Nvidia</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>C++\Nvidia</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>C++\Nvidia</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>C++\Nvidia</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitBVHBuilder.h">
+      <Filter>C++\Nvidia</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>C++\Nvidia</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil.cuh">
+      <Filter>Cuda</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="cudarenderkernel.cu">
+      <Filter>Cuda</Filter>
+    </CudaCompile>
+    <CudaCompile Include="cutil.cu">
+      <Filter>Cuda</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
